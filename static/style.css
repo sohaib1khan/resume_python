@@ -1,0 +1,113 @@
+/* Global Background */
+body {
+    background-color: #F0F4F8 !important; /* Light mode: Soft bluish-gray */
+    transition: background-color 0.3s ease-in-out;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e293b !important; /* Dark mode: Deep blue-gray */
+    }
+}
+
+
+/* Container Background */
+.container, .max-w-3xl {
+    background-color: #ffffff; /* Light mode container */
+    transition: background-color 0.3s ease-in-out;
+}
+
+@media (prefers-color-scheme: dark) {
+    .container, .max-w-3xl {
+        background-color: #2D3748; /* Slightly lighter dark background for contrast */
+    }
+}
+
+/* Markdown Styling */
+.markdown-content h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #1a202c;
+    border-bottom: 3px solid #cbd5e0;
+    padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.markdown-content h1::before {
+    content: "📂";
+    margin-right: 10px;
+}
+
+.markdown-content h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #2d3748;
+    display: flex;
+    align-items: center;
+}
+
+.markdown-content h2::before {
+    content: "📁";
+    margin-right: 8px;
+    color: #f59e0b;
+}
+
+.markdown-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #4a5568;
+}
+
+.markdown-content ul {
+    list-style-type: "✔ ";
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.markdown-content li {
+    margin-bottom: 0.5rem;
+}
+
+.markdown-content strong {
+    font-weight: bold;
+    color: #1a202c;
+}
+
+.markdown-content em {
+    font-style: italic;
+    color: #718096;
+}
+
+/* Job Titles */
+.markdown-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #1a73e8;
+}
+
+/* Subtle job location styling */
+.markdown-content h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #374151;
+}
+
+/* Improve button styles */
+button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #165bb5;
+}

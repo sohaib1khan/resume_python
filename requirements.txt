@@ -1,0 +1,6 @@
+markdown
+flask
+weasyprint
+flask_mail
+flask_wtf
+email-validator

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+    <h1 class="text-4xl font-bold mb-6 text-gray-900 dark:text-gray-100 border-b pb-3">📬 Get in Touch</h1>
+
+    <div class="markdown-content text-gray-700 dark:text-gray-300 space-y-6">
+        {{ content | safe }}  <!-- Render Markdown content -->
+    </div>
+
+    <!-- Contact Form -->
+    <div class="mt-8 bg-gray-200 dark:bg-gray-900 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">📧 Send a Message</h2>
+
+        <form action="mailto:contact@sohaib0khan.com" method="post" enctype="text/plain" class="space-y-4">
+            <div>
+                <label for="name" class="block text-gray-700 dark:text-gray-300 font-medium">Your Name</label>
+                <input type="text" id="name" name="name" required 
+                    class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100">
+            </div>
+
+            <div>
+                <label for="email" class="block text-gray-700 dark:text-gray-300 font-medium">Your Email</label>
+                <input type="email" id="email" name="email" required 
+                    class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100">
+            </div>
+
+            <div>
+                <label for="message" class="block text-gray-700 dark:text-gray-300 font-medium">Message</label>
+                <textarea id="message" name="message" rows="5" required
+                    class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100"></textarea>
+            </div>
+
+            <button type="submit"
+                class="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+                📩 Send Message
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}
