@@ -4,12 +4,12 @@
 
 ## 🖥️ **About Me**
 
-I am a **driven technical support engineer** with **seven years of experience** and a passion for **DevOps** and **cloud infrastructure**.  
+I am a **driven technical support engineer** with **eight years of experience** and a passion for **DevOps** and **cloud infrastructure**.  
 With expertise in **Linux administration** and **network troubleshooting**, I have a proven track record of:
 
 ✅ Providing **outstanding support** 🤝  
 ✅ Resolving **technical issues efficiently** 🚀  
-✅ Collaborating with **vendors and third-party companies** to find innovative solutions 🔧  
+✅ Developing integrations and automating workflows while collaborating with vendors and third-party APIs to enhance system scalability, reliability, and performance 🔧
 
 ---
 

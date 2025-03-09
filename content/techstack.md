@@ -116,6 +116,50 @@
 
 ---
 
+## 🚀 **GitOps: Infrastructure Automation with Git**
+
+> *"Declarative, automated, and version-controlled deployments."*
+
+**GitOps** is a modern infrastructure management approach that leverages **Git as the single source of truth** for defining and deploying applications and infrastructure. This methodology enables seamless, automated, and consistent deployments while maintaining high visibility and control.
+
+### 🔹 **Key Principles of GitOps**
+
+✅ **Declarative Configuration** – Define infrastructure and application states in code.  
+✅ **Version Control as Source of Truth** – Store all configurations in **Git repositories** for tracking changes.  
+✅ **Automated Deployments** – CI/CD pipelines continuously sync deployments to match the defined state.  
+✅ **Observability & Auditing** – Every change is logged and versioned for full visibility.
+
+* * *
+
+### 🛠️ **GitOps Tools in My Stack**
+
+🔹 **ArgoCD** – A declarative **GitOps continuous delivery** tool designed for **Kubernetes**.  
+🔹 **Jenkins** – Automates CI/CD pipelines, integrating GitOps workflows for deployments.  
+🔹 **FluxCD** – Kubernetes-native GitOps tool for managing clusters and workloads.  
+🔹 **Helm** – **Package manager** for Kubernetes, used alongside GitOps to simplify deployments.
+
+📜 [GitOps Learning Repository](https://github.com/sohaib1khan/GitOps_Projects) – A sandbox for practicing GitOps workflows with ArgoCD and Jenkins.
+
+* * *
+
+### ⚡ **GitOps in Action**
+
+- 📌 **Automating Kubernetes Deployments** – ArgoCD watches Git repositories and ensures cluster state matches committed configurations.
+- 🔄 **CI/CD Integration** – Jenkins triggers pipeline execution when Git updates occur.
+- 🔎 **Secure & Scalable Deployments** – Helm charts and manifests define applications while Git history provides audit logs.
+
+* * *
+
+### 🔥 **Why GitOps?**
+
+🔹 **Improved Deployment Speed & Reliability** – No manual configurations, reducing errors.  
+🔹 **Easy Rollbacks** – Revert to previous Git commits instantly if something breaks.  
+🔹 **Infrastructure as Code (IaC) Alignment** – Works alongside Terraform & Ansible.  
+🔹 **Scalability** – Ideal for managing multi-cluster environments.
+
+---
+
+
 ## 🚀 **Agile Methodology**
 > _"Delivering fast, adaptable, and efficient solutions."_  
 

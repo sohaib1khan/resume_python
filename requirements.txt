@@ -4,3 +4,5 @@ weasyprint
 flask_mail
 flask_wtf
 email-validator
+requests
+weasyprint
