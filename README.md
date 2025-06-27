@@ -1,6 +1,18 @@
-# 🚀 Live Resume & Portfolio
+# 💼 Dynamic Portfolio Engine
 
-A **personal portfolio website** built with **Flask, Python, Tailwind CSS**, and **Markdown**, featuring dynamic content rendering, a **PDF resume generator**, and seamless deployment using **Docker** and **Kubernetes**.
+<div align="center">
+
+[![Portfolio Engine Interactive Documentation](https://img.shields.io/badge/💼_INTERACTIVE-DOCUMENTATION-667eea?style=for-the-badge&labelColor=0f0f0f&color=764ba2&logoColor=white)](https://sohaib1khan.github.io/resume_python/)
+
+**🌐 Live Production Website | ⚡ Full-Stack Platform | 🚀 Enterprise Ready | 📊 Real Analytics**
+
+*💼 Professional Portfolio • 🔒 Production Security • 📱 Responsive Design*
+
+---
+
+</div>
+
+🌐 **Live Resume & Portfolio** - A professional portfolio website built with Flask, Python, Tailwind CSS, and Markdown, featuring dynamic content, visitor tracking, and automated deployment.
 
 ## 📌 Features
 
